@@ -1,7 +1,7 @@
 
 class Data {
     private float Salary = 10_00_000f;
-    private float bonus;
+    // private float bonus;
 
     public float getSalary() {
         return Salary;
