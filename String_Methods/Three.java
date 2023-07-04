@@ -14,7 +14,7 @@ public class Three {
         String s2 = "B";
         System.out.println(s1.concat(s2));
 
-        String res = String.format("%s%s", s1, s2);
+        String res = String.format("%s,%s", s1, s2);
         System.out.println(res);
 
         StringBuilder s3 = new StringBuilder("Swaroop");
@@ -26,6 +26,12 @@ public class Three {
         obj.add("Swaroop");
         obj.add("Acharya");
         System.out.println(obj.toString());
+
+        String ss1 = new String("Hello"); // String 1
+        String ss2 = new String(" World"); // String 2
+        String ss3 = new String(" Java"); // String 2
+        String ss = String.join("0", ss1, ss2, ss3); // String 3 to store the result
+        System.out.println(ss.toString()); // Displays result Hello0 world0 java
 
     }
 }
