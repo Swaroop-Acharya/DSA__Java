@@ -21,7 +21,7 @@ public class Three {
         StringBuilder s4 = new StringBuilder(" Acharya");
         System.out.println(s3.append(s4));
 
-        StringJoiner obj = new StringJoiner(","); // , is delemeter
+        StringJoiner obj = new StringJoiner(","); // , is delimeter
         obj.add("HeLLOW");
         obj.add("Swaroop");
         obj.add("Acharya");
