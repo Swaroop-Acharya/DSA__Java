@@ -29,3 +29,6 @@ Following are some features of String which makes String objects immutable.
   The immutability of String helps to minimize the usage in the heap memory. When we try to declare a new String object, the JVM checks whether the value already exists in the String pool or not. If it exists,     the same value is assigned to the new object. This feature allows Java to use the heap space efficiently.
 
 reference:- https://www.javatpoint.com/immutable-string
+
+# Difference between StringBuilder and StringBuffer
+- reference -https://www.javatpoint.com/difference-between-stringbuffer-and-stringbuilder
