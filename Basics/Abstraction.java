@@ -2,7 +2,7 @@
 // (to access it, it must be inherited from another class).
 // The abstract keyword is a non-access modifier, used for classes and methods:
 abstract class Car {
-    String mode = "On Road";
+    int a=10;
 
     // An abstract class can have both abstract and regular methods
     public void sound() {
@@ -27,7 +27,9 @@ public class Abstraction {
 
         BMW obj = new BMW();
         obj.Features();
-        System.out.println(obj.mode);
+        System.out.println(obj.a);
+        obj.a=11;
+        System.out.println(obj.a);
 
     }
 }

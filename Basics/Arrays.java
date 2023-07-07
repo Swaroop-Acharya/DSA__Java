@@ -4,5 +4,6 @@ public class Arrays {
         int[] constants;
         constants = new int[] { 1, 2, 4 };
         int[] solo = new int[] { 1, 2, 3 };
+        int[] solo1 =  { 1, 2, 3 };
     }
 }

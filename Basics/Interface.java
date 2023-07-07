@@ -6,6 +6,7 @@ interface Animal {
     // Interface attributes are static and final
     String size = "Small";
     String communication = "No Communication";
+    int age = 100;
 
     // Interface methods are by default abstract and public
     // All three are valid
@@ -36,6 +37,7 @@ public class Interface {
         // Directly accessed using the interface name because interface is static
         System.out.println(Animal.size);
         System.out.println(Animal.communication);
+
 
         Whale obj = new Whale();
         obj.name();

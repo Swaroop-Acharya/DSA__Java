@@ -57,7 +57,8 @@ public class Array_List {
 
         numbers.sort(null);
         System.out.println(numbers);
-
+        
+        System.out.println();
         myCar.clear();
         System.out.println(myCar);
     }

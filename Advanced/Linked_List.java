@@ -1,7 +1,8 @@
 package Advanced;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
+
+import java.util.Iterator;
 
 // addFirst()	Adds an item to the beginning of the list.	
 // addLast()	Add an item to the end of the list	
@@ -36,11 +37,13 @@ public class Linked_List {
         fruits.add("A");
         fruits.add("C");
         fruits.add("B");
-
+        
         System.out.println(fruits);
         System.out.println(fruits.getFirst());
 
         fruits.remove(1);
         System.out.println(fruits);
+
+        
     }
 }

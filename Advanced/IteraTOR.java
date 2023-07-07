@@ -22,7 +22,7 @@ public class IteraTOR {
         numbers.add(10);
         numbers.add(11);
 
-        Iterator<Integer> it = numbers.iterator();
+        Iterator<Integer> it=numbers.iterator();  
 
         // System.out.println(it.next());
         // System.out.println(it.next());

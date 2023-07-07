@@ -3,6 +3,10 @@ class A {
 
     int x = 10;
 
+    public void message() {
+        System.out.println("Hi this is me");
+    }
+
     class B {
         int y = 20;
 
@@ -11,6 +15,7 @@ class A {
         }
 
         public int access() {
+            message();
             return x;
         }
     }

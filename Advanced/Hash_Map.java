@@ -34,6 +34,7 @@ public class Hash_Map {
 
         for (String i : numbers.keySet()) {
             System.out.println("Key: " + i + " Value: " + numbers.get(i));
+            
         }
 
     }
