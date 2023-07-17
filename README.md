@@ -1,5 +1,4 @@
 # Java
-
 # Java Strings
 - reference https://www.javatpoint.com/java-string
 
